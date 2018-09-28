@@ -1,0 +1,29 @@
+Info on my machine
+------------------
+
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 14.04.5 LTS
+Release:        14.04
+Codename:       trusty
+
+$ nvim --version
+NVIM v0.2.3-dev
+Build type: RelWithDebInfo
+Lua 5.1
+Compilation: /usr/bin/x86_64-linux-gnu-gcc -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -Wconversion -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -DNVIM_MSGPACK_HAS_FLOAT32 -DNVIM_UNIBI_HAS_VAR_FROM -O2 -g -DMIN_LOG_LEVEL=3 -Og -g -Wall -Wextra -pedantic -Wno-unused-parameter -Wstrict-prototypes -std=gnu99 -Wvla -fstack-protector --param ssp-buffer-size=4 -Wno-array-bounds -DINCLUDE_GENERATED_DECLARATIONS -D_GNU_SOURCE -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/build/config -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/src -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/.deps/usr/include -I/usr/include -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/build/src/nvim/auto -I/build/neovim-10Jyqh/neovim-0.2.0ubuntu1+git201712132324+3814+26~ubuntu14.04.1/build/include
+Compiled by buildd@lgw01-amd64-024
+
+Features: +acl +iconv +jemalloc +tui
+See ":help feature-compile"
+
+   system vimrc file: "$VIM/sysinit.vim"
+  fall-back for $VIM: "/usr/share/nvim"
+
+Run :checkhealth for more info
+$ git --version
+git version 2.19.0
+
+$ zsh --version
+zsh 5.0.2 (x86_64-pc-linux-gnu)
